@@ -4,6 +4,6 @@ title: Home
 ---
 # Kyle Hubbard
 
-*TODO: one or two sentence intro / value proposition goes here.*
+Proven software consultant and team manager. Solutions Architect at TrendAI, working AWS partnerships and AI security governance.
 
 <a class="btn" href="/projects/">See my work</a>
