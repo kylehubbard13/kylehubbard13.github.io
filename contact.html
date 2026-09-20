@@ -2,44 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact | Kyle Hubbard</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-
   <header id="site-header"></header>
 
-  <main class="contact-main">
-    <section class="contact-hero">
-      <h1>Let's Get in Touch</h1>
-      <p>Have a project or question? Send me a message below!</p>
-    </section>
+  <main>
+    <h1>Contact</h1>
+    <p>Have a project or question? Send a message below.</p>
 
-    <section class="contact-form-section">
-      <form action="mailto:kylehubbard13@gmail.com" method="post" enctype="text/plain" class="contact-form">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required />
+    <!-- TODO: confirm this is the right address to receive messages at -->
+    <form action="mailto:kylehubbard13@gmail.com" method="post" enctype="text/plain" class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
 
-        <label for="subject">Subject</label>
-        <input type="text" id="subject" name="subject" required />
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" required />
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
 
-        <button type="submit" class="btn">Send Email</button>
-      </form>
-    </section>
+      <button type="submit" class="btn">Send</button>
+    </form>
   </main>
 
-  <script src="headerLoader.js"></script>
-
-  <footer>
-    <p>&copy; 2025 Kyle Hubbard</p>
+  <footer class="site-footer">
+    <p>&copy; 2026 Kyle Hubbard</p>
   </footer>
+
+  <script src="/headerLoader.js"></script>
 </body>
 </html>
