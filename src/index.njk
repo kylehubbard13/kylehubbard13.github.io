@@ -11,15 +11,39 @@ description: Kyle Hubbard is a Solutions Architect on TrendAI's Global Alliances
       <span class="hero__title-b">I work in the space between them.</span>
     </h1>
     <p class="hero__lede">
-      I'm Kyle Hubbard, a Solutions Architect on TrendAI's Global Alliances team, focused on
-      our AWS partnership. Most of my day is AI security &mdash; specifically, how a customer
-      governs an agent once it's in production: what it can touch, what it can act on, and
-      where a person stays in the loop.
+      I'm Kyle Hubbard. I own the technical side of TrendAI's AWS partnership &mdash; the
+      positioning, the roadmap conversations, and the executive narrative in both
+      directions. The subject most of that turns on right now is AI security: how a customer
+      governs an agent once it's in production, what it can act on, and where a person stays
+      in the loop.
     </p>
     <p class="hero__actions">
       <a class="btn" href="/partnerships/">The alliance work</a>
       <a class="btn btn--ghost" href="/resume/">Resume</a>
     </p>
+  </div>
+</section>
+
+<section class="band band--ruled">
+  <div class="wrap band__grid">
+    <div class="rail">
+      <p class="mono-label">What the<br />seat covers</p>
+    </div>
+    <div>
+      <p class="lede band__lede">
+        An alliance isn't a set of tasks, it's a book of business with a technical spine.
+        Four things sit on my desk.
+      </p>
+
+      <div class="scopelist">
+        {% for item in scope %}
+        <div class="scope">
+          <p class="mono-label scope__label">{{ item.label }}</p>
+          <p class="scope__text">{{ item.text }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </section>
 

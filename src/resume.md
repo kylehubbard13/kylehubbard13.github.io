@@ -6,8 +6,9 @@ description: Solutions Architect, Global Alliances at TrendAI. Previously Black 
 ---
 # Resume
 
-Partner- and customer-facing engineering roles across security, cloud, and large-scale
-public sector systems.
+Eleven years of partner- and customer-facing work across security, cloud, and large-scale
+public sector systems — including leading a 17-person team and building the training
+programs behind two organizations' delivery practices.
 
 ## Experience
 
@@ -28,6 +29,7 @@ public sector systems.
 - Guided installation of Black Duck SCA on Docker Swarm and Kubernetes against client infrastructure and CI/CD pipelines
 - Designed custom Python and SQL integrations to fit the software into each client's SDLC and DevOps workflow
 - Partnered with Product Management to shape features of Polaris, feeding client-facing experience back into the roadmap
+- Built the enablement layer for the practice — a SharePoint site, presentation materials, and training modules — so the sales organization could position the Customer Delivery team's offerings
 - Innovation Award winner — established AWS usage policy that cut monthly spend by more than 70%
 
 ### Fast Enterprises, LLC
@@ -39,10 +41,12 @@ Rebuilt the Driver and Motor Vehicle systems for Washington (8M residents) and M
 ### Production Support Manager
 **Fast Enterprises** — Jul 2020 – Jul 2022
 
-- Managed and mentored 14 developers and 3 subject matter experts maintaining the Motor Vehicle, International Registration Plan, and Business Licensing systems
+- Managed and mentored 14 developers and 3 subject matter experts maintaining the Motor Vehicle, International Registration Plan, and Business Licensing systems — standups, 1:1s, code review, and the work assignment behind them
+- Owned hiring for the team, from campus recruiting through final-round interviews
 - Led weekly prioritization with executive stakeholders — status on high-profile work, and ordering the ticket backlog
 - Built SQL reporting on KPIs covering 22.9M vehicles and 44,000 daily transactions
 - Cut deadlocks out of batch processes clearing 6.2M transactions per day
+- Served as vehicle system expert on the RFP response for Montana's Driver and Motor Vehicle system upgrade
 
 ### Implementation Consultant
 **Fast Enterprises** — Jun 2015 – Jul 2022
