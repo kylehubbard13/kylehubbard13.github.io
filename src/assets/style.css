@@ -542,17 +542,6 @@ img {
   color: var(--ink-muted);
 }
 
-.note {
-  font-family: var(--font-mono);
-  font-size: 0.78rem;
-  letter-spacing: 0.03em;
-  color: var(--ink-muted);
-  background: var(--accent-wash);
-  border-left: 2px solid var(--accent);
-  padding: 0.75rem 1rem;
-  margin: 0 0 1.5rem;
-}
-
 /* ---------- contact ---------- */
 
 .directlines {
