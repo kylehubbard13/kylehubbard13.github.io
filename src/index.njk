@@ -1,0 +1,74 @@
+---
+layout: base.njk
+title: Home
+description: Kyle Hubbard is a Solutions Architect on TrendAI's Global Alliances team, working the AWS partnership and the question of how customers govern AI agents in production.
+---
+<section class="hero">
+  <div class="wrap">
+    <p class="mono-label hero__eyebrow">TrendAI &times; AWS &middot; Global Alliances</p>
+    <h1 class="hero__title">
+      Every partnership has two sides.
+      <span class="hero__title-b">I work in the space between them.</span>
+    </h1>
+    <p class="hero__lede">
+      I'm Kyle Hubbard, a Solutions Architect on TrendAI's Global Alliances team, focused on
+      our AWS partnership. Most of my day is AI security &mdash; specifically, how a customer
+      governs an agent once it's in production: what it can touch, what it can act on, and
+      where a person stays in the loop.
+    </p>
+    <p class="hero__actions">
+      <a class="btn" href="/partnerships/">The alliance work</a>
+      <a class="btn btn--ghost" href="/resume/">Resume</a>
+    </p>
+  </div>
+</section>
+
+<section class="band band--ruled">
+  <div class="wrap band__grid">
+    <div class="rail">
+      <p class="mono-label">Translating<br />both directions</p>
+    </div>
+    <div>
+      <p class="lede band__lede">
+        The useful thing I do isn't picking a side. It's saying the same true thing twice, so
+        the people building it and the people funding it are actually agreeing.
+      </p>
+
+      <div class="registers">
+        {% for item in highlights %}
+        <div class="register">
+          <p class="mono-label register__topic">{{ item.topic }}</p>
+          <div class="register__side">
+            <p class="mono-label register__label">{{ item.left.label }}</p>
+            <p class="register__text">{{ item.left.text }}</p>
+          </div>
+          <div class="register__side register__side--b">
+            <p class="mono-label register__label">{{ item.right.label }}</p>
+            <p class="register__text">{{ item.right.text }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band--ruled">
+  <div class="wrap band__grid">
+    <div class="rail">
+      <p class="mono-label">How I got here</p>
+    </div>
+    <div class="prose">
+      <p>
+        Eleven years of my career have been spent working across an organizational boundary
+        rather than inside one &mdash; state agencies at Fast Enterprises, 73 enterprise
+        security deployments at Black Duck, and now hyperscaler partnerships at TrendAI. The
+        constant is being the person both sides can ask a direct question and get a straight
+        answer.
+      </p>
+      <p>
+        <a href="/about/">More on that</a> &middot; <a href="/contact/">Get in touch</a>
+      </p>
+    </div>
+  </div>
+</section>

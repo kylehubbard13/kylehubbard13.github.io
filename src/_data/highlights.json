@@ -1,0 +1,46 @@
+[
+  {
+    "topic": "Governing agents in production",
+    "left": {
+      "label": "Engineering room",
+      "text": "Scope an agent's permissions to what the job actually needs, and put approval gates on everything past that line."
+    },
+    "right": {
+      "label": "Executive room",
+      "text": "You can say yes to agents in production without signing a blank check."
+    }
+  },
+  {
+    "topic": "AWS cost policy",
+    "left": {
+      "label": "Engineering room",
+      "text": "Right-sized instances and enforced teardown policy across AWS test environments."
+    },
+    "right": {
+      "label": "Executive room",
+      "text": "Monthly AWS spend down more than 70%, and an innovation award for the policy behind it."
+    }
+  },
+  {
+    "topic": "Motor vehicle platform, post-launch",
+    "left": {
+      "label": "Engineering room",
+      "text": "Cut deadlocks out of batch processes clearing 6.2M transactions a day."
+    },
+    "right": {
+      "label": "Executive room",
+      "text": "22.9M vehicle records available the moment the counters opened Monday morning."
+    }
+  },
+  {
+    "topic": "Security tooling, 73 deployments",
+    "left": {
+      "label": "Engineering room",
+      "text": "Black Duck SCA on Docker Swarm or Kubernetes, wired into each client's own CI/CD."
+    },
+    "right": {
+      "label": "Executive room",
+      "text": "Success criteria agreed before kickoff, then met — 73 times."
+    }
+  }
+]

@@ -1,33 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ title }} | Kyle Hubbard</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% if page.url == "/" %}{{ site.name }} — {{ site.role }}{% else %}{{ title }} — {{ site.name }}{% endif %}</title>
+  <meta name="description" content="{{ description if description else site.description }}" />
+  <meta property="og:title" content="{% if page.url == '/' %}{{ site.name }}{% else %}{{ title }} — {{ site.name }}{% endif %}" />
+  <meta property="og:description" content="{{ description if description else site.description }}" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap" />
   <link rel="stylesheet" href="/assets/style.css" />
+  <script>
+    try {
+      var stored = localStorage.getItem("theme");
+      if (stored === "dark" || stored === "light") {
+        document.documentElement.setAttribute("data-theme", stored);
+      }
+    } catch (e) {}
+  </script>
 </head>
 <body>
-  <header class="site-header">
-    <nav class="nav">
-      <a class="nav-brand" href="/">Kyle Hubbard</a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
-      <ul class="nav-links">
-        <li><a href="/"{% if page.url == "/" %} class="active"{% endif %}>Home</a></li>
-        <li><a href="/about/"{% if page.url == "/about/" %} class="active"{% endif %}>About</a></li>
-        <li><a href="/resume/"{% if page.url == "/resume/" %} class="active"{% endif %}>Resume</a></li>
-        <li><a href="/projects/"{% if page.url == "/projects/" %} class="active"{% endif %}>Projects</a></li>
-        <li><a href="/blog/"{% if page.url == "/blog/" %} class="active"{% endif %}>Blog</a></li>
-        <li><a href="/contact/"{% if page.url == "/contact/" %} class="active"{% endif %}>Contact</a></li>
-      </ul>
-    </nav>
+  <a class="skiplink" href="#main">Skip to content</a>
+
+  <header class="masthead">
+    <div class="wrap masthead__inner">
+      <a class="wordmark" href="/">
+        <span class="wordmark__name">{{ site.name }}</span>
+        <span class="wordmark__role">{{ site.role }}</span>
+      </a>
+
+      <div class="masthead__right">
+        <div class="masthead__controls">
+          <button class="iconbtn navtoggle" type="button" aria-expanded="false" aria-controls="sitenav">Menu</button>
+          <button class="iconbtn themetoggle" type="button" aria-label="Switch color theme">
+            <span class="themetoggle__label" data-theme-label>Theme</span>
+          </button>
+        </div>
+
+        <nav class="nav" id="sitenav" aria-label="Main">
+          <ul class="nav__list">
+            <li><a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>Home</a></li>
+            <li><a href="/partnerships/"{% if page.url == "/partnerships/" %} aria-current="page"{% endif %}>Partnerships</a></li>
+            <li><a href="/about/"{% if page.url == "/about/" %} aria-current="page"{% endif %}>About</a></li>
+            <li><a href="/resume/"{% if page.url == "/resume/" %} aria-current="page"{% endif %}>Resume</a></li>
+            <li><a href="/blog/"{% if page.url == "/blog/" %} aria-current="page"{% endif %}>Blog</a></li>
+            <li><a href="/contact/"{% if page.url == "/contact/" %} aria-current="page"{% endif %}>Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
 
-  <main>
+  <main id="main">
     {{ content | safe }}
   </main>
 
-  <footer class="site-footer">
-    <p>&copy; 2026 Kyle Hubbard</p>
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p class="footer__line">
+        <span class="mono-label">Reach me</span>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <span class="footer__sep" aria-hidden="true">/</span>
+        <a href="{{ site.linkedin }}" rel="me">LinkedIn</a>
+      </p>
+      <p class="footer__line footer__meta">
+        <span>{{ site.location }}</span>
+        <span class="footer__sep" aria-hidden="true">/</span>
+        <span>&copy; 2026 {{ site.name }}</span>
+      </p>
+    </div>
   </footer>
 
   <script src="/assets/nav.js"></script>

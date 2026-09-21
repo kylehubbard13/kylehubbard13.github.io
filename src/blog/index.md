@@ -1,14 +1,19 @@
 ---
-layout: base.njk
+layout: page.njk
 title: Blog
+eyebrow: Writing
 permalink: /blog/
+description: Notes on alliances, AI security, and getting two organizations to describe the same thing the same way.
 ---
-# Blog
+# Writing
 
-<ul class="post-list">
+Notes on alliances, agent governance, and the work of getting two organizations to describe
+the same thing the same way.
+
+<ul class="postlist{% if collections.post.size == 0 %} postlist--empty{% endif %}">
 {% for post in collections.post %}
   <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
 {% else %}
-  <li class="placeholder">No posts yet.</li>
+  <li>First post in progress.</li>
 {% endfor %}
 </ul>

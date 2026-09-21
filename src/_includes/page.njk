@@ -1,0 +1,13 @@
+---
+layout: base.njk
+---
+<article class="band">
+  <div class="wrap band__grid">
+    <div class="rail">
+      <p class="mono-label">{{ eyebrow if eyebrow else title }}</p>
+    </div>
+    <div class="prose">
+      {{ content | safe }}
+    </div>
+  </div>
+</article>

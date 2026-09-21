@@ -1,10 +1,27 @@
 ---
-layout: base.njk
+layout: page.njk
 title: Contact
+eyebrow: Contact
+description: Get in touch with Kyle Hubbard — alliances, AI security, or the vodcast.
 ---
 # Contact
 
-Have a project or question? Send a message below.
+Alliance conversations, AI security questions, or a vodcast guest suggestion — all welcome.
+
+<div class="directlines">
+  <div class="directline">
+    <span class="mono-label">Email</span>
+    <a href="mailto:me@kylehubbard.tech">me@kylehubbard.tech</a>
+  </div>
+  <div class="directline">
+    <span class="mono-label">LinkedIn</span>
+    <a href="https://www.linkedin.com/in/kylehubbard13">/in/kylehubbard13</a>
+  </div>
+  <div class="directline">
+    <span class="mono-label">Based in</span>
+    <span>Denver, Colorado</span>
+  </div>
+</div>
 
 <form action="mailto:me@kylehubbard.tech" method="post" enctype="text/plain" class="contact-form">
   <label for="name">Name</label>
@@ -19,5 +36,5 @@ Have a project or question? Send a message below.
   <label for="message">Message</label>
   <textarea id="message" name="message" rows="5" required></textarea>
 
-  <button type="submit" class="btn">Send</button>
+  <button type="submit">Send</button>
 </form>
