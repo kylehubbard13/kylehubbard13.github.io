@@ -416,6 +416,25 @@ img {
   }
 }
 
+.programs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.program__name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.3;
+  margin: 0 0 0.35rem;
+}
+
+.scope__label .scope__when {
+  display: block;
+  color: var(--ink-muted);
+}
+
 /* ---------- prose ---------- */
 
 .prose {
