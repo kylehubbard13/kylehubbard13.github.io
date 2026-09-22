@@ -17,7 +17,7 @@ programs behind two organizations' delivery practices.
 
 - Drive TrendAI's AWS partnership strategy within the Global Alliances team, translating deep technical detail on the Vision One platform into positioning that lands with engineering and executive audiences
 - Lead AI Security positioning for the AWS partnership, focused on how customers govern AI agents in production — what they're allowed to act on, and where human oversight stays in the loop
-- Partner with AWS product and business teams to align Vision One's capabilities across cloud security posture, AI security, and infrastructure protection with the AWS roadmap
+- Partner with AWS product and business teams to align Vision One's capabilities across {% term "posture", "cloud security posture" %}, AI security, and infrastructure protection with the AWS roadmap
 - Built TrendAI's AI Security workshop and the framework underneath it, designed so the program stays repeatable and scales across customers rather than depending on any one presenter
 - Build executive-level briefing decks and technical summaries for both TrendAI and AWS leadership, holding the line on claims that have to stay technically defensible
 - Serve as a technical resource at AWS Summits and Black Hat, representing TrendAI to partners and the broader security community
@@ -26,9 +26,9 @@ programs behind two organizations' delivery practices.
 ### Application Engineer, Staff
 **Black Duck** (formerly the Software Integrity Group at Synopsys) — Jul 2022 – Apr 2026
 
-- Led deployment projects for 73 customers implementing Black Duck SCA and Polaris, defining success criteria at initiation and carrying them through to sign-off
-- Guided installation of Black Duck SCA on Docker Swarm and Kubernetes against client infrastructure and CI/CD pipelines
-- Designed custom Python and SQL integrations to fit the software into each client's SDLC and DevOps workflow
+- Led deployment projects for 73 customers implementing Black Duck {% term "sca" %} and Polaris, defining success criteria at initiation and carrying them through to sign-off
+- Guided installation of Black Duck SCA on Docker Swarm and Kubernetes against client infrastructure and {% term "cicd" %} pipelines
+- Designed custom Python and SQL integrations to fit the software into each client's {% term "sdlc" %} and DevOps workflow
 - Partnered with Product Management to shape features of Polaris, feeding client-facing experience back into the roadmap
 - Helped build Express Onboarding for Polaris and Black Duck SCA — a repeatable monthly webinar series that got new customers enabled quickly instead of one engagement at a time
 - Became the field expert on Polaris, the internal go-to the delivery team routed product questions to

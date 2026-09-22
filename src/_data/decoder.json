@@ -1,42 +1,92 @@
 [
   {
+    "id": "ace",
     "term": "ACE",
-    "plain": "The shared pipeline where you and AWS both write down the deals you're working.",
+    "plain": "The shared pipeline where a partner and AWS both write down the deals they're working.",
     "real": "If it isn't in ACE, AWS doesn't know it exists and nobody gets credit for it."
   },
   {
+    "id": "sourced-influenced",
     "term": "Sourced vs. influenced",
     "plain": "Did the partner bring the deal, or help win one AWS already had?",
     "real": "Who gets the credit. This is why the meeting ran long."
   },
   {
+    "id": "private-offer",
     "term": "Private offer",
     "plain": "A negotiated price, transacted through AWS Marketplace instead of a normal contract.",
     "real": "The customer pays with money they already promised AWS. That's usually the whole reason it's on the table."
   },
   {
+    "id": "competency",
     "term": "Competency",
-    "plain": "A badge confirming AWS checked that you're genuinely good at one specific thing.",
+    "plain": "A badge confirming AWS checked that a partner is genuinely good at one specific thing.",
     "real": "Months of paperwork and customer references. Also the thing that gets you into certain rooms."
   },
   {
+    "id": "co-sell",
     "term": "Co-sell",
-    "plain": "Your seller and an AWS seller work the same deal together.",
+    "plain": "A partner's seller and an AWS seller working the same deal together.",
     "real": "Two comp plans pointed at one customer. Works beautifully, or not even slightly."
   },
   {
+    "id": "mdf",
     "term": "MDF",
-    "plain": "Market Development Funds — money from AWS to pay for marketing you do together.",
+    "plain": "Market Development Funds — money from AWS to pay for marketing partners do together with them.",
     "real": "It arrives with paperwork and a deadline, and it expires whether you spend it or not."
   },
   {
+    "id": "jvp",
     "term": "Joint value proposition",
     "plain": "The one sentence explaining why a customer should buy both things together.",
     "real": "Written by committee, which is why it's three sentences and commits to nothing. I have written several."
   },
   {
+    "id": "offline",
     "term": "“Let's take this offline”",
     "plain": "We'll talk about it after this call.",
     "real": "Someone currently on this call should not hear the answer."
+  },
+  {
+    "id": "hyperscaler",
+    "term": "Hyperscaler",
+    "plain": "One of the giant cloud providers — AWS, Microsoft Azure, Google Cloud.",
+    "real": "Three companies whose roadmaps quietly set the agenda for everyone else's."
+  },
+  {
+    "id": "partner-central",
+    "term": "Partner Central",
+    "plain": "The AWS portal where partners manage their relationship with AWS — deals, training, funding, listings.",
+    "real": "Where the work is recorded, which is not always where the work happens."
+  },
+  {
+    "id": "marketplace",
+    "term": "AWS Marketplace",
+    "plain": "The storefront where customers buy software through their existing AWS account and bill.",
+    "real": "Procurement's favorite shortcut, because the contract already exists."
+  },
+  {
+    "id": "sca",
+    "term": "SCA",
+    "plain": "Software Composition Analysis — tooling that inventories the open-source components in an application and flags the ones with known vulnerabilities or license problems.",
+    "real": "The thing that tells you which of the 900 libraries you didn't write is the one that'll ruin your quarter."
+  },
+  {
+    "id": "cicd",
+    "term": "CI/CD",
+    "plain": "The automated pipeline that builds, tests, and ships code every time a developer changes it.",
+    "real": "The conveyor belt. Security tools either ride it or get ignored."
+  },
+  {
+    "id": "sdlc",
+    "term": "SDLC",
+    "plain": "Software Development Lifecycle — the whole path from writing code to running it in production.",
+    "real": "Every team claims to have one. Ask where the exceptions get approved."
+  },
+  {
+    "id": "posture",
+    "term": "Cloud security posture",
+    "plain": "Whether a company's cloud is configured safely — permissions, exposure, and misconfiguration.",
+    "real": "Usually discovered to be worse than assumed, by about one order of magnitude."
   }
 ]

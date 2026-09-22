@@ -448,7 +448,80 @@ img {
   color: var(--ink-muted);
 }
 
-/* ---------- decoder ---------- */
+/* ---------- inline gloss: jargon as written, translation on demand ---------- */
+
+.gloss {
+  position: relative;
+  display: inline;
+}
+
+.gloss__trigger {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  border-bottom: 1px dotted var(--accent);
+  cursor: help;
+}
+
+.gloss__pop {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 0.5rem);
+  z-index: 20;
+  width: max-content;
+  max-width: min(22rem, calc(100vw - 2rem));
+  padding: 0.7rem 0.85rem;
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-left: 2px solid var(--accent);
+  border-radius: 2px;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.09);
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: 0;
+  white-space: normal;
+  /* Purely informational, so it must never swallow a click meant for the term
+     underneath it — glosses sit close together in dense prose. */
+  pointer-events: none;
+}
+
+.gloss__poplabel {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.gloss.is-open .gloss__pop {
+  display: block;
+}
+
+/* Hover is an accelerator only where the device really has one —
+   touch falls through to the click handler instead. */
+@media (hover: hover) and (pointer: fine) {
+  .gloss:hover .gloss__pop {
+    display: block;
+  }
+}
+
+.gloss__trigger:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* ---------- decoder page ---------- */
 
 .decoder {
   border-top: 1px solid var(--rule);
@@ -464,20 +537,20 @@ img {
   border: 0;
   border-bottom: 1px solid var(--rule);
   padding: 0;
-  cursor: pointer;
+  cursor: help;
 }
 
 .dterm__grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  gap: 0.4rem;
-  padding-block: 1.2rem;
+  gap: 0.5rem;
+  padding-block: 1.15rem;
   align-items: start;
 }
 
 @media (min-width: 52rem) {
   .dterm__grid {
-    grid-template-columns: 13rem minmax(0, 1fr);
+    grid-template-columns: 15rem minmax(0, 1fr);
     column-gap: 2.5rem;
     gap: 0;
   }
@@ -491,44 +564,33 @@ img {
 }
 
 .dterm__body {
-  display: block;
+  display: none;
   max-width: 46ch;
 }
 
-.dterm__plain {
+.dterm.is-open .dterm__body {
   display: block;
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .dterm:hover .dterm__body {
+    display: block;
+  }
+}
+
 .dterm__real {
-  display: none;
-  margin-top: 0.85rem;
-  padding: 0.7rem 0.9rem;
+  display: block;
+  margin-top: 0.7rem;
+  padding: 0.6rem 0.8rem;
   background: var(--accent-wash);
   border-left: 2px solid var(--accent);
   font-style: italic;
-  color: var(--ink);
 }
 
 .dterm__reallabel {
   display: block;
   margin-bottom: 0.2rem;
   font-style: normal;
-}
-
-.dterm.is-open .dterm__real {
-  display: block;
-}
-
-/* Hover is an accelerator only where the device really has one —
-   touch screens fall through to the click handler instead. */
-@media (hover: hover) and (pointer: fine) {
-  .dterm:hover .dterm__real {
-    display: block;
-  }
-
-  .dterm:hover .dterm__term {
-    color: var(--accent-ink);
-  }
 }
 
 .dterm:focus-visible {

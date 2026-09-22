@@ -25,6 +25,62 @@
     });
   });
 
+  // Inline glosses. The popover is absolutely positioned against the word, so
+  // nudge it back inside the viewport when the word sits near an edge.
+  var glosses = document.querySelectorAll(".gloss");
+
+  // Measure against documentElement.clientWidth, never window.innerWidth: an
+  // overflowing popover widens the document, which inflates innerWidth, and the
+  // clamp then reads a viewport the overflow itself created.
+  function place(gloss) {
+    var pop = gloss.querySelector(".gloss__pop");
+    pop.style.left = "0px";
+    var margin = 12;
+    var viewport = document.documentElement.clientWidth;
+    var box = pop.getBoundingClientRect();
+    if (!box.width) return;
+    var shift = 0;
+    if (box.right > viewport - margin) {
+      shift = viewport - margin - box.right;
+    }
+    if (box.left + shift < margin) {
+      shift = margin - box.left;
+    }
+    pop.style.left = shift + "px";
+  }
+
+  function closeAll(except) {
+    glosses.forEach(function (g) {
+      if (g === except) return;
+      g.classList.remove("is-open");
+      g.querySelector(".gloss__trigger").setAttribute("aria-expanded", "false");
+    });
+  }
+
+  glosses.forEach(function (gloss) {
+    var trigger = gloss.querySelector(".gloss__trigger");
+
+    trigger.addEventListener("click", function (event) {
+      event.stopPropagation();
+      var open = !gloss.classList.contains("is-open");
+      closeAll(gloss);
+      gloss.classList.toggle("is-open", open);
+      trigger.setAttribute("aria-expanded", String(open));
+      if (open) place(gloss);
+    });
+
+    gloss.addEventListener("mouseenter", function () { place(gloss); });
+    trigger.addEventListener("focus", function () { place(gloss); });
+  });
+
+  if (glosses.length) {
+    document.addEventListener("click", function () { closeAll(null); });
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") closeAll(null);
+    });
+    window.addEventListener("resize", function () { closeAll(null); });
+  }
+
   var themeBtn = document.querySelector(".themetoggle");
   var themeLabel = document.querySelector("[data-theme-label]");
 

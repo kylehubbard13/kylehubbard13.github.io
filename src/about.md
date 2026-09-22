@@ -11,7 +11,7 @@ one. Different employers, different industries, same job underneath: be the pers
 sides can ask a direct question and get a straight answer.
 
 Right now that's alliances. I'm a Solutions Architect on TrendAI's Global Alliances team,
-working across our hyperscaler partnerships with the bulk of my time on AWS. Most of it
+working across our {% term "hyperscaler" %} partnerships with the bulk of my time on AWS. Most of it
 centers on AI security &mdash; specifically, how you govern an agent once it's live:
 deciding what it's allowed to touch, what it can act on, and where a human needs to stay in
 the loop. As more of our AWS customers put agents into production, that governance question
