@@ -70,5 +70,5 @@ Rebuilt the Driver and Motor Vehicle systems for Washington (8M residents) and M
 ## Skills
 
 <p class="skills">
-Alliances &amp; partner strategy · Solutions architecture · AI security &amp; agent governance · Amazon Web Services · Cloud security posture · Application security · DevSecOps · CI/CD · Docker · Kubernetes · Python · SQL · Software implementation · Requirements &amp; needs analysis · Executive communication · Team leadership &amp; mentoring · Product requirement definition · SDLC
+Partner solutions architecture · Alliances &amp; partner strategy · AI security &amp; agent governance · Amazon Web Services · Cloud security posture · Application security · DevSecOps · CI/CD · Docker · Kubernetes · Python · SQL · Software implementation · Requirements &amp; needs analysis · Executive communication · Team leadership &amp; mentoring · Product requirement definition · SDLC
 </p>

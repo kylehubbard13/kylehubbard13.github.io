@@ -1,0 +1,6 @@
+{
+  "tags": "post",
+  "layout": "page.njk",
+  "eyebrow": "Writing",
+  "permalink": "/blog/{{ page.fileSlug }}/"
+}

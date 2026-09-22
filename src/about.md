@@ -15,8 +15,9 @@ working across our hyperscaler partnerships with the bulk of my time on AWS. Mos
 centers on AI security &mdash; specifically, how you govern an agent once it's live:
 deciding what it's allowed to touch, what it can act on, and where a human needs to stay in
 the loop. As more of our AWS customers put agents into production, that governance question
-has become the center of the conversation, and my job is translating what Vision One does
-there into terms that land with engineers and executives both.
+has become the center of the conversation, and my job is translating what Vision One — our
+cloud and AI security platform — does there into terms that land with engineers and
+executives both.
 
 Before TrendAI I spent nearly four years at Black Duck leading deployments of Black Duck SCA
 and Polaris &mdash; 73 of them. That work put me inside 73 different companies' development

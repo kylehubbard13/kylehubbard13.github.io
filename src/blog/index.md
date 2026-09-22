@@ -3,7 +3,6 @@ layout: page.njk
 title: Blog
 eyebrow: Writing
 permalink: /blog/
-eleventyExcludeFromCollections: true
 description: Notes on alliances, AI security, and getting two organizations to describe the same thing the same way.
 ---
 # Writing
