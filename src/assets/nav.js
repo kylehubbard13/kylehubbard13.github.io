@@ -18,6 +18,13 @@
     });
   }
 
+  document.querySelectorAll(".dterm").forEach(function (term) {
+    term.addEventListener("click", function () {
+      var open = term.classList.toggle("is-open");
+      term.setAttribute("aria-expanded", String(open));
+    });
+  });
+
   var themeBtn = document.querySelector(".themetoggle");
   var themeLabel = document.querySelector("[data-theme-label]");
 

@@ -1,0 +1,54 @@
+---
+layout: base.njk
+title: Decoder
+description: Partner-speak, translated — what AWS alliance vocabulary means in plain English, and what it actually means in the room.
+---
+<section class="band">
+  <div class="wrap band__grid">
+    <div class="rail">
+      <p class="mono-label">Partner-speak,<br />translated</p>
+    </div>
+    <div class="prose">
+      <h1>The Decoder</h1>
+      <p class="lede">
+        Every alliance runs on vocabulary that means one thing in the documentation and
+        something more specific in the room. Here's both, for the terms that come up most.
+      </p>
+      <p>
+        I say all of these too. That's rather the point &mdash; the words aren't the problem,
+        it's that nobody tells you what they're actually doing until you've sat through
+        enough meetings to work it out.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="band band--ruled band--tint">
+  <div class="wrap band__grid">
+    <div class="rail">
+      <p class="mono-label">Hover or tap<br />any term</p>
+    </div>
+    <div>
+      <div class="decoder">
+        {% for item in decoder %}
+        <button class="dterm" type="button" aria-expanded="false">
+          <span class="dterm__grid">
+            <span class="mono-label dterm__term">{{ item.term }}</span>
+            <span class="dterm__body">
+              <span class="dterm__plain">{{ item.plain }}</span>
+              <span class="dterm__real">
+                <span class="mono-label dterm__reallabel">What it actually means</span>
+                {{ item.real }}
+              </span>
+            </span>
+          </span>
+        </button>
+        {% endfor %}
+      </div>
+
+      <p class="decoder__foot mono-label">
+        Missing one? <a href="/contact/">Send it to me</a>.
+      </p>
+    </div>
+  </div>
+</section>

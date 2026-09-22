@@ -1,0 +1,42 @@
+[
+  {
+    "term": "ACE",
+    "plain": "The shared pipeline where you and AWS both write down the deals you're working.",
+    "real": "If it isn't in ACE, AWS doesn't know it exists and nobody gets credit for it."
+  },
+  {
+    "term": "Sourced vs. influenced",
+    "plain": "Did the partner bring the deal, or help win one AWS already had?",
+    "real": "Who gets the credit. This is why the meeting ran long."
+  },
+  {
+    "term": "Private offer",
+    "plain": "A negotiated price, transacted through AWS Marketplace instead of a normal contract.",
+    "real": "The customer pays with money they already promised AWS. That's usually the whole reason it's on the table."
+  },
+  {
+    "term": "Competency",
+    "plain": "A badge confirming AWS checked that you're genuinely good at one specific thing.",
+    "real": "Months of paperwork and customer references. Also the thing that gets you into certain rooms."
+  },
+  {
+    "term": "Co-sell",
+    "plain": "Your seller and an AWS seller work the same deal together.",
+    "real": "Two comp plans pointed at one customer. Works beautifully, or not even slightly."
+  },
+  {
+    "term": "MDF",
+    "plain": "Market Development Funds — money from AWS to pay for marketing you do together.",
+    "real": "It arrives with paperwork and a deadline, and it expires whether you spend it or not."
+  },
+  {
+    "term": "Joint value proposition",
+    "plain": "The one sentence explaining why a customer should buy both things together.",
+    "real": "Written by committee, which is why it's three sentences and commits to nothing. I have written several."
+  },
+  {
+    "term": "“Let's take this offline”",
+    "plain": "We'll talk about it after this call.",
+    "real": "Someone currently on this call should not hear the answer."
+  }
+]

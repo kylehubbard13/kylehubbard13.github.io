@@ -448,6 +448,100 @@ img {
   color: var(--ink-muted);
 }
 
+/* ---------- decoder ---------- */
+
+.decoder {
+  border-top: 1px solid var(--rule);
+}
+
+.dterm {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  padding: 0;
+  cursor: pointer;
+}
+
+.dterm__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.4rem;
+  padding-block: 1.2rem;
+  align-items: start;
+}
+
+@media (min-width: 52rem) {
+  .dterm__grid {
+    grid-template-columns: 13rem minmax(0, 1fr);
+    column-gap: 2.5rem;
+    gap: 0;
+  }
+}
+
+.dterm__term {
+  color: var(--accent);
+  border-bottom: 1px dotted var(--accent);
+  padding-bottom: 2px;
+  justify-self: start;
+}
+
+.dterm__body {
+  display: block;
+  max-width: 46ch;
+}
+
+.dterm__plain {
+  display: block;
+}
+
+.dterm__real {
+  display: none;
+  margin-top: 0.85rem;
+  padding: 0.7rem 0.9rem;
+  background: var(--accent-wash);
+  border-left: 2px solid var(--accent);
+  font-style: italic;
+  color: var(--ink);
+}
+
+.dterm__reallabel {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-style: normal;
+}
+
+.dterm.is-open .dterm__real {
+  display: block;
+}
+
+/* Hover is an accelerator only where the device really has one —
+   touch screens fall through to the click handler instead. */
+@media (hover: hover) and (pointer: fine) {
+  .dterm:hover .dterm__real {
+    display: block;
+  }
+
+  .dterm:hover .dterm__term {
+    color: var(--accent-ink);
+  }
+}
+
+.dterm:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.decoder__foot {
+  margin-top: 1.5rem;
+  text-transform: none;
+  letter-spacing: 0.04em;
+}
+
 /* ---------- prose ---------- */
 
 .prose {
