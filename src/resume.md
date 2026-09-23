@@ -23,7 +23,7 @@ programs behind two organizations' delivery practices.
 - Serve as a technical resource at AWS Summits and Black Hat, representing TrendAI to partners and the broader security community
 - Host *AWS Partnerships re:Imagined*, a vodcast on the AWS partner ecosystem
 
-### Applications Engineer, Staff
+### Application Engineer, Staff
 **Black Duck** (formerly the Software Integrity Group at Synopsys) — Jul 2022 – Apr 2026
 
 - Led deployment projects for 73 customers implementing Black Duck {% term "sca" %} and Polaris, defining success criteria at initiation and carrying them through to sign-off
@@ -66,7 +66,7 @@ reworking it for the tightly integrated Drivers rollout coming right behind it.
 - Coordinated and led discovery and definition meetings to gather development requirements for vehicle titling and registration
 - Led system design sessions from those definitions to keep the architecture stable and scalable
 - Managed and assigned development tasks to two team members — first line-management step
-- Developed and maintained external RESTful APIs called a million-plus times a day
+- Developed and maintained internal and external RESTful APIs handling 320,000+ inbound and 200,000+ outbound calls a day
 - Created and led a year-long training program — lesson plans, weekly sessions, certification exam — that took 20 client developers to working independently
 
 ### Implementation Consultant — Washington Motor Vehicle & Driver Licensing Rollouts
