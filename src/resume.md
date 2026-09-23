@@ -44,14 +44,14 @@ Washington (8M residents) and Maryland (6.2M residents), built on the FAST DS-VS
 in VB.NET/C# and SQL.
 
 Two promotions across those seven years — but the implementation work never stopped. I was
-still building transactions while managing the team, and I ran production support *through*
-Maryland's second rollout rather than after it.
+still building while managing the team: supporting Maryland's live Vehicle system while
+reworking it for the tightly integrated Drivers rollout coming right behind it.
 
 ### Production Support Manager — Maryland Motor Vehicle Administration
 **Fast Enterprises** — Jun 2020 – Jul 2022
 
 - Managed and mentored 14 developers and 3 subject matter experts across the Motor Vehicle, International Registration Plan, and Business Licensing systems — standups, 1:1s, code review, and the work assignment behind them
-- Ran the team through Maryland's second rollout: supporting a live production system and standing up a new one at the same time, rather than managing a settled platform
+- Ran post-launch support on the live Vehicle system while leading the changes to it that Maryland's Drivers rollout depended on — two tightly integrated systems, one in production and one on the way
 - Stayed hands-on throughout, carrying implementation and development work alongside the management load
 - Owned hiring for the team, from campus recruiting through final-round interviews
 - Led weekly meetings with executive stakeholders — status on high-profile projects, completed and in-progress work, and ordering the backlog
