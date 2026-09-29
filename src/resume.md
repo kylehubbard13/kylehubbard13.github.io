@@ -21,7 +21,8 @@ programs behind two organizations' delivery practices.
 - Built TrendAI's AI Security workshop and the framework underneath it, designed so the program stays repeatable and scales across customers rather than depending on any one presenter
 - Build executive-level briefing decks and technical summaries for both TrendAI and AWS leadership, holding the line on claims that have to stay technically defensible
 - Serve as a technical resource at AWS Summits and Black Hat, representing TrendAI to partners and the broader security community
-- Featured by AWS on *AWS Partnerships re:Imagined*, hosted by Aaron Barton, discussing TrendAI Co-Sell IQ — a co-sell agent built on the AWS Partner Central Agent MCP Server
+- Built TrendAI Co-Sell IQ, an agentic tool on the AWS Partner Central Agent MCP Server that takes the repetitive front end of co-sell off sellers so they can focus on customer relationships and judgment calls
+- Featured by AWS on *AWS Partnerships re:Imagined*, hosted by Aaron Barton, discussing Co-Sell IQ
 
 ### Application Engineer, Staff
 **Black Duck** (formerly the Software Integrity Group at Synopsys) — Jul 2022 – Apr 2026
