@@ -2,11 +2,11 @@
 layout: page.njk
 title: Contact
 eyebrow: Contact
-description: Get in touch with Kyle Hubbard — alliances, AI security, or the vodcast.
+description: Get in touch with Kyle Hubbard — alliances, AI security, or co-sell.
 ---
 # Contact
 
-Alliance conversations, AI security questions, or a vodcast guest suggestion — all welcome.
+Alliance conversations, AI security questions, or anything co-sell — all welcome.
 Email is the fastest way to reach me.
 
 <div class="directlines">

@@ -60,6 +60,12 @@
     "real": "Where the work is recorded, which is not always where the work happens."
   },
   {
+    "id": "mcp",
+    "term": "MCP server",
+    "plain": "Model Context Protocol — a standard way to plug an AI agent into a tool or data source, like a universal adapter.",
+    "real": "The plumbing that decides what an agent can actually touch. The governance question, in protocol form."
+  },
+  {
     "id": "marketplace",
     "term": "AWS Marketplace",
     "plain": "The storefront where customers buy software through their existing AWS account and bill.",
