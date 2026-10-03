@@ -40,3 +40,11 @@ I've always thought of myself as the bridge between the room that's debugging th
 the room that's deciding whether to fund it, translating in both directions so nothing gets
 lost in between. Alliances is just the version of that job with two companies instead of two
 departments.
+
+Outside work, I've been a member of the
+[Denver Kids Young Professionals Council](https://denverkidsinc.org/our-team/young-professionals-council-ypc/)
+since July 2025. Denver Kids helps Denver students facing adversity finish high school and
+move on to college and careers, and the council supports that mission through fundraising,
+events, and mentor recruitment. The networking and professional development are a welcome
+bonus. It picks up something I started at Gonzaga, where I mentored a local student through
+Campus Kids.
