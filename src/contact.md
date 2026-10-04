@@ -2,12 +2,12 @@
 layout: page.njk
 title: Contact
 eyebrow: Contact
-description: Get in touch with Kyle Hubbard — alliances, AI security, or co-sell.
+description: How to reach Kyle Hubbard about AWS partnerships, AI security, or co-sell.
 ---
 # Contact
 
-Alliance conversations, AI security questions, or anything co-sell — all welcome.
-Email is the fastest way to reach me.
+If you want to talk about AWS partnerships, AI security, or co-sell, I would love to hear
+from you! Email is the best way to reach me.
 
 <div class="directlines">
   <div class="directline">

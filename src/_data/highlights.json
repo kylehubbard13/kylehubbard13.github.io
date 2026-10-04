@@ -1,46 +1,46 @@
 [
   {
-    "topic": "Governing agents in production",
+    "topic": "TrendAI Co-Sell IQ",
     "left": {
-      "label": "Engineering room",
-      "text": "Scope an agent's permissions to what the job actually needs, and put approval gates on everything past that line."
+      "label": "For engineers",
+      "text": "An agent built on the AWS Partner Central Agent MCP Server that improves opportunity submissions and brings AWS insights back into the seller workflow."
     },
     "right": {
-      "label": "Executive room",
-      "text": "You can say yes to agents in production without signing a blank check."
+      "label": "For leadership",
+      "text": "Sellers spend less time on data entry and more time with customers."
     }
   },
   {
-    "topic": "AWS cost policy",
+    "topic": "AI agents in production",
     "left": {
-      "label": "Engineering room",
-      "text": "Right-sized instances and enforced teardown policy across AWS test environments."
+      "label": "For engineers",
+      "text": "Limit each agent's access to what its job needs, and require a person to approve anything beyond that."
     },
     "right": {
-      "label": "Executive room",
-      "text": "Monthly AWS spend down more than 70%, and an innovation award for the policy behind it."
+      "label": "For leadership",
+      "text": "You can put AI agents into production without giving them free rein."
     }
   },
   {
-    "topic": "Motor vehicle platform, post-launch",
+    "topic": "73 Black Duck deployments",
     "left": {
-      "label": "Engineering room",
-      "text": "Cut deadlocks out of batch processes clearing 6.2M transactions a day."
+      "label": "For engineers",
+      "text": "Black Duck SCA on Docker Swarm or Kubernetes, with scans running in each client's CI/CD pipeline."
     },
     "right": {
-      "label": "Executive room",
-      "text": "22.9M vehicle records available the moment the counters opened Monday morning."
+      "label": "For leadership",
+      "text": "73 customers live, each measured against success criteria we agreed on at kickoff."
     }
   },
   {
-    "topic": "Security tooling, 73 deployments",
+    "topic": "Maryland Motor Vehicle system",
     "left": {
-      "label": "Engineering room",
-      "text": "Black Duck SCA on Docker Swarm or Kubernetes, wired into each client's own CI/CD."
+      "label": "For engineers",
+      "text": "Reduced deadlocks in batch processes handling 6.2 million transactions a day."
     },
     "right": {
-      "label": "Executive room",
-      "text": "Success criteria agreed before kickoff, then met — 73 times."
+      "label": "For leadership",
+      "text": "Fewer slowdowns for MVA staff working in a system that tracks 22.9 million vehicles."
     }
   }
 ]

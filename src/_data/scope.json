@@ -1,18 +1,18 @@
 [
   {
-    "label": "The partnership",
-    "text": "Own the technical strategy for TrendAI's AWS partnership end to end — positioning, roadmap alignment with AWS product and business teams, and the executive narrative on both sides of it."
+    "label": "The AWS partnership",
+    "text": "I handle the technical side of TrendAI's AWS relationship. That means making sure what we say about Vision One holds up when an engineer digs into it, working with AWS teams on where our products fit together, and putting together briefings for leadership on both sides."
   },
   {
-    "label": "Repeatable programs",
-    "text": "I keep ending up building the thing that makes delivery repeatable: an AI Security workshop at TrendAI, with a framework underneath it built to scale; Express Onboarding at Black Duck, which I helped build; a year-long certification program before that. Three companies, three programs."
+    "label": "Co-Sell IQ",
+    "text": "I built TrendAI Co-Sell IQ on the new AWS Partner Central Agent. It takes the repetitive front end of co-sell off our sellers, and it was highlighted in the keynote at the AWS Marketplace Sellers Conference."
   },
   {
-    "label": "Teams",
-    "text": "Led 17 people — 14 developers and 3 subject matter experts — supporting a live statewide Vehicle system while reworking it for the tightly integrated Drivers rollout behind it, and still building myself. Owned hiring from campus recruiting through final rounds, and did it again at Black Duck, where I became the Polaris field expert the delivery team routed questions to."
+    "label": "Programs that scale",
+    "text": "At every company I've worked for, I've ended up building something that lets the work keep going without me: a year-long certification program at Fast Enterprises, Express Onboarding at Black Duck (which I helped build), and an AI Security workshop at TrendAI."
   },
   {
-    "label": "The ecosystem",
-    "text": "Featured by AWS on AWS Partnerships re:Imagined, talking through TrendAI Co-Sell IQ, the agentic co-sell tool I built. Technical resource at AWS Summits and Black Hat, representing TrendAI to partners and the wider security community."
+    "label": "Leading teams",
+    "text": "At Fast Enterprises I managed 14 developers and 3 subject matter experts while still writing code myself, and handled hiring from campus recruiting through final-round interviews. At Black Duck I helped hire and onboard new team members and became the go-to person for Polaris questions."
   }
 ]
